@@ -1,0 +1,30 @@
+#container
+{
+    margin: auto;
+    width: 50%;
+}
+#list_head , #complete,#to_do{
+    border: solid 1px black;
+    margin-bottom: 20px;
+    border-radius: 16px;
+}
+#to_do{
+    border: solid 1px black;
+}
+#to_do ul {
+   list-style: none;
+}
+#to_do ul li img{
+    width: 20px;
+    height: 15px;
+    float: right;
+}
+
+#complete ul {
+   list-style: none;
+}
+#complete ul li img{
+    width: 20px;
+    height: 15px;
+    float: right;
+}
